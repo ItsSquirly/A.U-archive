@@ -1,0 +1,79 @@
+/* ============================ */
+/* styles.css for American Union Archive */
+/* ============================ */
+
+
+body {
+background-color: #000000;
+color: #034714;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 20px;
+}
+
+
+header {
+text-align: center;
+margin-bottom: 30px;
+}
+
+
+h1 {
+font-size: 2em;
+margin-bottom: 10px;
+}
+
+
+h2 {
+font-size: 1.5em;
+margin-bottom: 15px;
+}
+
+
+a {
+color: #ffffff;
+text-decoration: none;
+}
+
+
+a:hover {
+text-decoration: underline;
+}
+
+
+.archive-link {
+display: flex;
+align-items: center;
+margin-bottom: 12px;
+}
+
+
+.archive-link button, .archive-link a.download {
+background-color: #4da6ff;
+color: #1e1e1e;
+border: none;
+padding: 5px 10px;
+cursor: pointer;
+font-size: 0.9em;
+border-radius: 4px;
+margin-left: 10px;
+}
+
+
+.archive-link button:hover, .archive-link a.download:hover {
+background-color: #357ab7;
+}
+
+
+/* Responsive */
+@media (max-width: 600px) {
+.archive-link {
+flex-direction: column;
+align-items: flex-start;
+}
+
+
+.archive-link button, .archive-link a.download {
+margin-left: 0;
+margin-top: 5px;
+}}
