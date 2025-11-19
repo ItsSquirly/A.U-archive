@@ -82,3 +82,4 @@ function renderArchives(){
 document.addEventListener('DOMContentLoaded', () => {
     renderArchives();
 });
+
